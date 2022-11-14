@@ -7,7 +7,6 @@ pipeline{
                 git credentialsId: 'javahome2', url: 'https://github.com/srinivas-charlie/konsole-maven.git'
             }
         }
-        stage{"Maven Build"}{
         stage{'Build'}{
             steps{
                 sh 'mvn clean package'
