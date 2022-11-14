@@ -28,7 +28,7 @@
          <distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://192.168.43.26:8081/repository/shaik-snapshots/</url>
+		    <url>http://192.168.43.26:8081/repository/shaik-snapshot/</url>
 		 </snapshotRepository>
 		
 		<repository>
