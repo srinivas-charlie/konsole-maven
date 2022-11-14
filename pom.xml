@@ -12,11 +12,12 @@
   <name>konsole-maven Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
-
+  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <sonar.host.url>http://192.168.43.26:9000/</sonar.host.url>
   </properties>
 
   <dependencies>
