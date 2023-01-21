@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage("Git Checkout"){
             steps{
-                git credentialsId: 'git-push', url: 'https://github.com/srinivas-charlie/konsole-maven.git'
+                git credentialsId: 'shaik', url: 'https://github.com/srinivas-charlie/konsole-maven-.git'
             }
         }
         stage("Maven Build"){
@@ -14,7 +14,7 @@ pipeline{
         }
         stage{'deploy-dev'}{
             steps{
-                deploy adapters: [tomcat8(credentialsId: '5f5388fd-9100-4db2-8ec8-b8dcb9b40656', path: '', url: 'http://192.168.43.26:1997')], contextPath: 'local', war: '**/*.war'
+                 deploy adapters: [tomcat9(credentialsId: 'tomcat', path: '', url: 'http://localhost:1997/')], contextPath: null, war: 'target/*.war'
 
             }
 
