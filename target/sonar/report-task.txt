@@ -1,6 +1,6 @@
-projectKey=srinivas_maven:konsole-maven
+projectKey=new-project:shaik-maven
 serverUrl=http://192.168.43.26:1111
 serverVersion=7.9.6.41879
-dashboardUrl=http://192.168.43.26:1111/dashboard?id=srinivas_maven%3Akonsole-maven
-ceTaskId=AYTltA9RuXsFHlRXo7Iq
-ceTaskUrl=http://192.168.43.26:1111/api/ce/task?id=AYTltA9RuXsFHlRXo7Iq
+dashboardUrl=http://192.168.43.26:1111/dashboard?id=new-project%3Ashaik-maven
+ceTaskId=AYWKI-ncXFkRL2a5iN6O
+ceTaskUrl=http://192.168.43.26:1111/api/ce/task?id=AYWKI-ncXFkRL2a5iN6O
