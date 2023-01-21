@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage{"git checkout"}{
             steps{
-                git credentialsId: '51373499-ed92-4b48-ac28-94999d524896', url: 'https://github.com/srinivas-charlie/konsole-maven.git'
+                git credentialsId: '51373499-ed92-4b48-ac28-94999d524896', url: 'https://github.com/srinivas-charlie/konsole-maven-.git'
             }
         }
         stage{'Build'}{
